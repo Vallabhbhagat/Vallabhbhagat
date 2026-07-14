@@ -5,7 +5,7 @@
 
 <img
 src="./assets/terminal-ascii.svg"
-width="320"
+width="520"
 alt="Terminal ASCII"/>
 
 </td>
