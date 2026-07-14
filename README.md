@@ -1,48 +1,39 @@
 <table align="center" width="100%">
 <tr>
 
-<td width="36%" align="center" valign="top">
+<td width="40%" align="center" valign="top">
 
 <img src="./assets/terminal-ascii.svg"
-     width="330"
+     width="630"
      alt="Terminal">
 
 </td>
 
-<td width="64%" valign="top">
+<td width="60%" valign="top">
 
 <h1>💫 About Me</h1>
 
 <h2>👋 Hey, I'm Vallabh</h2>
 
 <b>💻 Computer Engineering Student | AI & Full Stack Developer</b>
-
-<br><br>
-
 I'm passionate about building intelligent software by combining
 <b>Artificial Intelligence</b>,
 <b>Backend Engineering</b>, and
 <b>Modern Web Technologies</b>.
-
-<br><br>
-
+<br>
 ## 🚀 Currently Focused On
-
 - 🤖 Artificial Intelligence & Machine Learning
 - ⚙️ Backend Development (Node.js, Express)
 - 🌐 MERN Stack
 - 🧠 Data Structures & Algorithms
 - 🚀 Building production-ready projects
-
 ## 🎯 Goals
-
 - Build impactful AI products
 - Contribute to Open Source
 - Master System Design
 - Become an AI Software Engineer
 
 > *Turning ideas into scalable software, one commit at a time.*
-
 </td>
 
 </tr>
