@@ -1,184 +1,261 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="650"
-     height="760"
-     viewBox="0 0 650 760">
+     width="720"
+     height="980"
+     viewBox="0 0 720 980">
+
+    <defs>
+
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="1.8" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+
+    </defs>
+
+    <!-- Background -->
 
     <rect width="100%" height="100%" fill="#0d1117"/>
 
-    <!-- Window -->
-    <rect x="15" y="15" rx="8" width="620" height="730"
-          fill="#161b22"
-          stroke="#30363d"/>
+    <!-- Terminal -->
+
+    <rect
+        x="20"
+        y="20"
+        rx="10"
+        width="680"
+        height="940"
+        fill="#161b22"
+        stroke="#30363d"/>
 
     <!-- Header -->
-    <circle cx="40" cy="38" r="6" fill="#ff5f56"/>
-    <circle cx="60" cy="38" r="6" fill="#ffbd2e"/>
-    <circle cx="80" cy="38" r="6" fill="#27c93f"/>
 
-    <text x="110"
-          y="43"
-          font-family="monospace"
-          font-size="13"
-          fill="#8b949e">
-Terminal
-    </text>
+    <circle cx="45" cy="45" r="6" fill="#ff5f56"/>
+    <circle cx="65" cy="45" r="6" fill="#ffbd2e"/>
+    <circle cx="85" cy="45" r="6" fill="#27c93f"/>
 
-    <!-- Boot messages -->
+    <text
+        x="120"
+        y="50"
+        font-size="13"
+        font-family="monospace"
+        fill="#8b949e">
 
-    <text x="30"
-          y="80"
-          font-family="monospace"
-          font-size="13"
-          fill="#58a6ff">
-
-$ booting profile...
-<animate attributeName="opacity"
-         values="0;1"
-         dur="0.3s"
-         begin="0s"
-         fill="freeze"/>
+        Terminal
 
     </text>
 
-    <text x="30"
-          y="100"
-          font-family="monospace"
-          font-size="13"
-          fill="#58a6ff">
+    <!-- Boot Text -->
 
-Loading modules...
-<animate attributeName="opacity"
-         values="0;1"
-         dur="0.3s"
-         begin="0.5s"
-         fill="freeze"/>
+    <g font-family="monospace"
+       font-size="13"
+       fill="#58a6ff">
 
-    </text>
+        <text x="35" y="90" opacity="0">
+            $ booting profile...
+            <animate attributeName="opacity"
+                begin="0s"
+                dur="0.3s"
+                from="0"
+                to="1"
+                fill="freeze"/>
+        </text>
 
-    <text x="30"
-          y="120"
-          font-family="monospace"
-          font-size="13"
-          fill="#58a6ff">
+        <text x="35" y="110" opacity="0">
+            Loading modules...
+            <animate attributeName="opacity"
+                begin="0.4s"
+                dur="0.3s"
+                from="0"
+                to="1"
+                fill="freeze"/>
+        </text>
 
-Initializing AI engine...
-<animate attributeName="opacity"
-         values="0;1"
-         dur="0.3s"
-         begin="1s"
-         fill="freeze"/>
+        <text x="35" y="130" opacity="0">
+            Initializing AI engine...
+            <animate attributeName="opacity"
+                begin="0.8s"
+                dur="0.3s"
+                from="0"
+                to="1"
+                fill="freeze"/>
+        </text>
 
-    </text>
+        <text x="35" y="150" opacity="0">
+            Loading developer profile...
+            <animate attributeName="opacity"
+                begin="1.2s"
+                dur="0.3s"
+                from="0"
+                to="1"
+                fill="freeze"/>
+        </text>
 
-    <text x="30"
-          y="140"
-          font-family="monospace"
-          font-size="13"
-          fill="#58a6ff">
+    </g>
 
-Rendering developer profile...
-<animate attributeName="opacity"
-         values="0;1"
-         dur="0.3s"
-         begin="1.5s"
-         fill="freeze"/>
+    <!-- Progress Bar -->
 
-    </text>
+    <rect
+        x="35"
+        y="175"
+        width="300"
+        height="10"
+        rx="5"
+        fill="#21262d"/>
 
-    <text x="30"
-          y="170"
-          font-family="monospace"
-          font-size="13"
-          fill="#3fb950">
+    <rect
+        x="35"
+        y="175"
+        width="0"
+        height="10"
+        rx="5"
+        fill="#3fb950">
 
-████████████████████ 100%
-<animate attributeName="opacity"
-         values="0;1"
-         dur="0.3s"
-         begin="2s"
-         fill="freeze"/>
+        <animate
+            attributeName="width"
+            from="0"
+            to="300"
+            begin="1.5s"
+            dur="1.5s"
+            fill="freeze"/>
 
-    </text>
+    </rect>
 
-    <!-- ASCII -->
+    <text
+        x="345"
+        y="184"
+        font-family="monospace"
+        font-size="12"
+        fill="#3fb950"
+        opacity="0">
 
-    <text x="30"
-          y="220"
-          font-family="monospace"
-          font-size="7"
-          fill="#58a6ff"
-          xml:space="preserve"
-          opacity="0">
+        100%
 
-================#%%%%%%%%%%%%%%%%%%%%%=----------------
-===-=-----===#%%%%%%%%%%%%%%%%%%%%%%%%%%*--------------
-----------*%%%%%%%%%%%%%%%%##%%%%%#%%%%%%%=------------
---------+%%%%%%%%%%#%%%#%%%%%#%%%%%*%%%%%%%#+++++++++++
--------*%%%%%%#%%%%%#%%%#%%%%%#%%%%%#%%%%%%%#*********+
------=#%%%%%#%%#%%%%%#%%%#%%%%%%%%%%%%%%%%%%**+++++++++
------+#%%%%%%#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#*++*******
-----**%##%%%%%%##%%*%%%*#%%##%%%%%%%#%%%%%%%%#*********
----=-*###*#*%**%##**#*+*#%%%%%%%%%%-:--#%%%%#***+======
----=-##%%*:*-++:=*#+:=**+-#:...==%*::--:#%%%**+*+==++++
------%%%%*.:+::=+=:+=.-+=.*:.....=+.:-:.*%##*++++===+++
------#%%%*++::::#..:...:.:*:.....:..:--=%%*++==+=======
------=+%%%=-+**##:.......+:.........:-:%%*+++++++++++++
--------=#%%---#=.-#:::=*=.............*%%***+++++++++++
---------+%%#:.::....:...............---%%+==+=====+++++
-----------*=-.:-...................::..:=*+++++********
-------------+=:::....................:...=+++++*++*****
---------------:.......:..............:..:...-=+*+======
-----------------...:............-:..:::.......+*+==++++
-==========-=-----:............--:...:..........-+=+++++
-=============-----:::......:----..:............::=+++++
-===============:.:::.::.::==--:.:..................-+++
-==============-..:...:.:.::-=::........::............:+
-==============:..-=-.:.:.::+=-.......:.................
-=============:...--:.:.::-+=:......:...................
-+===========-....:--=-:.:++=:....:.....................
-+#+=========-.....:--..:=++=-=..:.--...................
--%+=========......::.:===++=-=+::--:............:-.....
-=*+========-.....--=++====+*=-:.---..............:=....
-=%++++++===:...:-:.=++====+-*:.:--................:-:..
-<animate attributeName="opacity"
-         from="0"
-         to="1"
-         begin="2.8s"
-         dur="0.8s"
-         fill="freeze"/>
+        <animate
+            attributeName="opacity"
+            begin="3s"
+            dur="0.2s"
+            from="0"
+            to="1"
+            fill="freeze"/>
 
     </text>
+
+    <!-- ===================================================== -->
+
+    <!-- ASCII STARTS HERE -->
+     <tspan x="30" dy="0">================#%%%%%%%%%%%%%%%%%%%%%=----------------</tspan>
+<tspan x="30" dy="8">===-=-----===#%%%%%%%%%%%%%%%%%%%%%%%%%%*--------------</tspan>
+<tspan x="30" dy="8">----------*%%%%%%%%%%%%%%%%##%%%%%#%%%%%%%=------------</tspan>
+<tspan x="30" dy="8">--------+%%%%%%%%%%#%%%#%%%%%#%%%%%*%%%%%%%#+++++++++++</tspan>
+<tspan x="30" dy="8">-------*%%%%%%#%%%%%#%%%#%%%%%#%%%%%#%%%%%%%#*********+</tspan>
+<tspan x="30" dy="8">-----=#%%%%%#%%#%%%%%#%%%#%%%%%%%%%%%%%%%%%%**+++++++++</tspan>
+<tspan x="30" dy="8">-----+#%%%%%%#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#*++*******</tspan>
+<tspan x="30" dy="8">----**%##%%%%%%##%%*%%%*#%%##%%%%%%%#%%%%%%%%#*********</tspan>
+<tspan x="30" dy="8">---=-*###*#*%**%##**#*+*#%%%%%%%%%%-:--#%%%%#***+======</tspan>
+<tspan x="30" dy="8">---=-##%%*:*-++:=*#+:=**+-#:...==%*::--:#%%%**+*+==++++</tspan>
+<tspan x="30" dy="8">-----%%%%*.:+::=+=:+=.-+=.*:.....=+.:-:.*%##*++++===+++</tspan>
+<tspan x="30" dy="8">-----#%%%*++::::#..:...:.:*:.....:..:--=%%*++==+=======</tspan>
+<tspan x="30" dy="8">-----=+%%%=-+**##:.......+:.........:-:%%*+++++++++++++</tspan>
+<tspan x="30" dy="8">-------=#%%---#=.-#:::=*=.............*%%***+++++++++++</tspan>
+<tspan x="30" dy="8">--------+%%#:.::....:...............---%%+==+=====+++++</tspan>
+<tspan x="30" dy="8">----------*=-.:-...................::..:=*+++++********</tspan>
+<tspan x="30" dy="8">------------+=:::....................:...=+++++*++*****</tspan>
+<tspan x="30" dy="8">--------------:.......:..............:..:...-=+*+======</tspan>
+<tspan x="30" dy="8">----------------...:............-:..:::.......+*+==++++</tspan>
+<tspan x="30" dy="8">==========-=-----:............--:...:..........-+=+++++</tspan>
+<tspan x="30" dy="8">=============-----:::......:----..:............::=+++++</tspan>
+<tspan x="30" dy="8">===============:.:::.::.::==--:.:..................-+++</tspan>
+<tspan x="30" dy="8">==============-..:...:.:.::-=::........::............:+</tspan>
+<tspan x="30" dy="8">==============:..-=-.:.:.::+=-.......:.................</tspan>
+<tspan x="30" dy="8">=============:...--:.:.::-+=:......:...................</tspan>
+<tspan x="30" dy="8">+===========-....:--=-:.:++=:....:.....................</tspan>
+<tspan x="30" dy="8">+#+=========-.....:--..:=++=-=..:.--...................</tspan>
+<tspan x="30" dy="8">-%+=========......::.:===++=-=+::--:............:-.....</tspan>
+<tspan x="30" dy="8">=*+========-.....--=++====+*=-:.---..............:=....</tspan>
+<tspan x="30" dy="8">=%++++++===:...:-:.=++====+-*:.:--................:-:..</tspan>
+
+    <g
+        id="ascii"
+        filter="url(#glow)"
+        opacity="0">
+
+        <animate
+            attributeName="opacity"
+            begin="3.2s"
+            dur="0.8s"
+            from="0"
+            to="1"
+            fill="freeze"/>
+
+        <text
+            x="35"
+            y="220"
+            font-size="7"
+            font-family="Courier New, monospace"
+            fill="#58a6ff"
+            xml:space="preserve">
+
+<!-- PASTE ASCII HERE -->
+
+        </text>
+
+    </g>
+
+    <!-- ===================================================== -->
 
     <!-- Cursor -->
 
-    <text x="30"
-          y="720"
-          font-family="monospace"
-          font-size="16"
-          fill="#58a6ff">
+    <text
+        x="35"
+        y="930"
+        font-family="monospace"
+        font-size="16"
+        fill="#58a6ff">
 
 ▋
 
-<animate attributeName="opacity"
-         values="1;0;1"
-         dur="1s"
-         repeatCount="indefinite"/>
+        <animate
+            attributeName="opacity"
+            values="1;0;1"
+            dur="1s"
+            repeatCount="indefinite"/>
 
     </text>
 
-    <!-- Scan line -->
+    <!-- Scanline -->
 
-    <rect x="20"
-          y="60"
-          width="610"
-          height="2"
-          fill="#58a6ff"
-          opacity="0.35">
+    <rect
+        x="30"
+        y="60"
+        width="660"
+        height="2"
+        fill="#58a6ff"
+        opacity=".25">
 
-        <animate attributeName="y"
-                 values="60;720;60"
-                 dur="6s"
-                 repeatCount="indefinite"/>
+        <animate
+            attributeName="y"
+            values="60;930;60"
+            dur="6s"
+            repeatCount="indefinite"/>
+
+    </rect>
+
+    <!-- CRT Flicker -->
+
+    <rect
+        width="100%"
+        height="100%"
+        fill="white"
+        opacity="0">
+
+        <animate
+            attributeName="opacity"
+            values="0;0.02;0;0.015;0"
+            dur="0.4s"
+            repeatCount="indefinite"/>
 
     </rect>
 
