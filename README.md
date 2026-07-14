@@ -4,7 +4,7 @@
 <td width="40%" align="center" valign="top">
 
 <img src="./assets/terminal-ascii.svg"
-     width="630"
+     width="430"
      alt="Terminal">
 
 </td>
@@ -15,25 +15,22 @@
 
 <h2>👋 Hey, I'm Vallabh</h2>
 
-<b>💻 Computer Engineering Student | AI & Full Stack Developer</b>
-I'm passionate about building intelligent software by combining
-<b>Artificial Intelligence</b>,
-<b>Backend Engineering</b>, and
-<b>Modern Web Technologies</b>.
-<br>
-## 🚀 Currently Focused On
-- 🤖 Artificial Intelligence & Machine Learning
-- ⚙️ Backend Development (Node.js, Express)
-- 🌐 MERN Stack
-- 🧠 Data Structures & Algorithms
-- 🚀 Building production-ready projects
-## 🎯 Goals
-- Build impactful AI products
-- Contribute to Open Source
-- Master System Design
-- Become an AI Software Engineer
+💻 **Computer Engineering Student | AI & Full Stack Developer**
 
-> *Turning ideas into scalable software, one commit at a time.*
+Passionate about building AI-powered and scalable web applications using modern technologies.
+
+### 🚀 Currently
+
+- 🤖 AI & Machine Learning
+- 🌐 MERN Stack
+- ⚙️ Backend Development
+- 🧠 DSA & System Design
+
+### 🎯 Goal
+
+Build impactful AI products and become an AI Software Engineer.
+
+> *"Turning ideas into scalable software, one commit at a time."*
 </td>
 
 </tr>
