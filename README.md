@@ -39,7 +39,7 @@
 
 </td>
 
-<td width="55%" valign="top">
+<td width="65%" valign="top">
 
 # 💫 About Me
 
