@@ -21,14 +21,15 @@
 
     <!-- Terminal -->
 
-    <rect
-        x="20"
-        y="20"
-        rx="10"
-        width="680"
-        height="940"
-        fill="#161b22"
-        stroke="#30363d"/>
+   <rect
+    x="15"
+    y="15"
+    width="590"
+    height="730"
+    rx="10"
+    fill="#161b22"
+    stroke="#30363d"
+    stroke-width="1.2"/>
 
     <!-- Header -->
 
