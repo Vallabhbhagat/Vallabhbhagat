@@ -1,26 +1,32 @@
-<table>
+<table align="center" width="100%">
 <tr>
 
-<td width="35%" valign="top">
+<td width="36%" align="center" valign="top">
 
-<img
-src="./assets/terminal-ascii.svg"
-width="520"
-alt="Terminal ASCII"/>
+<img src="./assets/terminal-ascii.svg"
+     width="330"
+     alt="Terminal">
 
 </td>
 
-<td width="65%" valign="top">
+<td width="64%" valign="top">
 
-# 💫 About Me
+<h1>💫 About Me</h1>
 
-## 👋 Hey, I'm Vallabh
+<h2>👋 Hey, I'm Vallabh</h2>
 
-💻 **Computer Engineering Student** | **AI & Full Stack Developer**
+<b>💻 Computer Engineering Student | AI & Full Stack Developer</b>
 
-I'm passionate about building intelligent software by combining **Artificial Intelligence**, **Backend Engineering**, and **Modern Web Technologies**.
+<br><br>
 
-### 🚀 Currently Focused On
+I'm passionate about building intelligent software by combining
+<b>Artificial Intelligence</b>,
+<b>Backend Engineering</b>, and
+<b>Modern Web Technologies</b>.
+
+<br><br>
+
+## 🚀 Currently Focused On
 
 - 🤖 Artificial Intelligence & Machine Learning
 - ⚙️ Backend Development (Node.js, Express)
@@ -28,14 +34,14 @@ I'm passionate about building intelligent software by combining **Artificial Int
 - 🧠 Data Structures & Algorithms
 - 🚀 Building production-ready projects
 
-### 🎯 Goals
+## 🎯 Goals
 
 - Build impactful AI products
 - Contribute to Open Source
 - Master System Design
 - Become an AI Software Engineer
 
-> *"Turning ideas into scalable software, one commit at a time."*
+> *Turning ideas into scalable software, one commit at a time.*
 
 </td>
 
