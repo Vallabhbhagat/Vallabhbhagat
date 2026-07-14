@@ -1,7 +1,9 @@
 <table>
 <tr>
-<td>
-```text
+
+<td width="45%" valign="top">
+
+<pre>
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@%@@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -56,27 +58,39 @@
 +++++++++++++++++++**++++++++++*+++*##+++++++*****#%%%%%#+++++*####*++*++++++##++++++++++++++++++++*
 ++++++++++++++++++++#++++++++++***++##*++++++*%%%%%#**##++++++####+++*++++++*#*+++++++++++++++++++*+
 ++++++++++++++++++++**++++++++++++++*#*+++++++%%%%%%%%#*++++++###*+++++++++*##*+++++++++++++++++++*+
-</td>
-<td width="55%>
+</pre>
 
-# 💫 About Me:
+</td>
+
+<td width="55%" valign="top">
+
+# 💫 About Me
+
 ## 👋 Hey, I'm Vallabh
 
-💻 Computer Engineering Student | AI & Full Stack Developer
+💻 **Computer Engineering Student** | **AI & Full Stack Developer**
 
-I enjoy building intelligent software that combines **AI**, **Backend Engineering**, and **Modern Web Technologies**.
+I'm passionate about building intelligent software by combining **Artificial Intelligence**, **Backend Engineering**, and **Modern Web Technologies**.
 
-Currently focused on:
+### 🚀 Currently Focused On
+
 - 🤖 Artificial Intelligence & Machine Learning
 - ⚙️ Backend Development (Node.js, Express)
 - 🌐 MERN Stack
 - 🧠 Data Structures & Algorithms
-- 🚀 Building real-world projects
+- 🚀 Building production-ready projects
 
-Always learning, always building, and always looking for challenging problems to solve.
+### 🎯 Goals
 
-> Turning ideas into scalable software, one commit at a time.
+- Build impactful AI products
+- Contribute to Open Source
+- Master System Design
+- Become an AI Software Engineer
+
+> *"Turning ideas into scalable software, one commit at a time."*
+
 </td>
+
 </tr>
 </table>
 
