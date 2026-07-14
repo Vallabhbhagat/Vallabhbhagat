@@ -1,6 +1,20 @@
 # 💫 About Me:
-Hi, I'm Vallabh 👋<br><br>💻 AI & Full Stack Developer<br><br>🎓 Computer Engineering Student<br><br>🚀 Building AI Projects<br><br>🌱 Learning:<br><br>MERN<br>AI/ML<br>System Design<br><br>📫 Email:<br>bhagatvallabh2706@gmail.com
+## 👋 Hey, I'm Vallabh
 
+💻 Computer Engineering Student | AI & Full Stack Developer
+
+I enjoy building intelligent software that combines **AI**, **Backend Engineering**, and **Modern Web Technologies**.
+
+Currently focused on:
+- 🤖 Artificial Intelligence & Machine Learning
+- ⚙️ Backend Development (Node.js, Express)
+- 🌐 MERN Stack
+- 🧠 Data Structures & Algorithms
+- 🚀 Building real-world projects
+
+Always learning, always building, and always looking for challenging problems to solve.
+
+> Turning ideas into scalable software, one commit at a time.
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/yoo_vallabh) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Vallabh(ヴァラブ)Bhagat) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/VallabhBhagat) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:bhagatvallabh2706@gmail.com) 
