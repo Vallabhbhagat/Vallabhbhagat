@@ -1,11 +1,11 @@
 <table>
 <tr>
 
-<td width="45%" valign="top">
+<td width="35%" valign="top">
 
 <img
 src="./assets/terminal-ascii.svg"
-width="420"
+width="320"
 alt="Terminal ASCII"/>
 
 </td>
