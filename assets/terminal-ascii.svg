@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="720"
-     height="980"
-     viewBox="0 0 720 980">
+    width="600"
+height="600"
+viewBox="0 0 600 600">
 
     <defs>
 
@@ -22,14 +22,11 @@
     <!-- Terminal -->
 
    <rect
-    x="15"
-    y="15"
-    width="590"
-    height="730"
-    rx="10"
-    fill="#161b22"
-    stroke="#30363d"
-    stroke-width="1.2"/>
+x="15"
+y="15"
+width="570"
+height="570"
+rx="8"/>
 
     <!-- Header -->
 
@@ -163,9 +160,9 @@
             fill="freeze"/>
 
         <text
-            x="35"
+            x="22"
             y="220"
-            font-size="7"
+            font-size="9"
             font-family="Courier New, monospace"
             fill="#58a6ff"
             xml:space="preserve">
@@ -219,7 +216,7 @@
 
     <text
         x="35"
-        y="930"
+        y="520"
         font-family="monospace"
         font-size="16"
         fill="#58a6ff">
@@ -246,7 +243,7 @@
 
         <animate
             attributeName="y"
-            values="60;930;60"
+            values="60;520;60"
             dur="6s"
             repeatCount="indefinite"/>
 
