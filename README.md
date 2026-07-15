@@ -1,16 +1,15 @@
 <table align="center" width="100%">
 <tr>
 
-<td width="40%" align="center" valign="top">
+<td width="80%" align="center" valign="top">
 
 <img src="./assets/terminal-ascii.svg"
-     width="430"
+     width="550"
      alt="Terminal">
 
 </td>
-
-<td width="60%" valign="top">
-
+</tr>
+</table>
 <h1>💫 About Me</h1>
 
 <h2>👋 Hey, I'm Vallabh</h2>
@@ -31,10 +30,6 @@ Passionate about building AI-powered and scalable web applications using modern 
 Build impactful AI products and become an AI Software Engineer.
 
 > *"Turning ideas into scalable software, one commit at a time."*
-</td>
-
-</tr>
-</table>
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/yoo_vallabh) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Vallabh(ヴァラブ)Bhagat) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/VallabhBhagat) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:bhagatvallabh2706@gmail.com) 
